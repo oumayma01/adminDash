@@ -1,1 +1,136 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import "~@ng-select/ng-select/themes/default.theme.css";
+
+
+input{
+
+}
+
+.blueText{
+    color: #386dda;
+}
+.whiteText{
+    color: #fff;
+}
+.greyText{
+    color: #747577;
+}
+
+.blueBg{
+    background-color: #386dda;
+}
+.greyBg{
+    background: #f8f9fa;
+}
+.cardTn{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #f2f3f5;
+    padding: 70px 30px;
+}
+
+.ngx-pagination .current {
+    padding: 0.1875rem 0.625rem;
+    background: #20c0f3;
+    color: #fefefe;
+    cursor: default;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.ft-11{
+    font-size: 11px;
+}
+.ft-12{
+    font-size: 12px;
+}
+.ft-14{
+    font-size: 14px;
+}
+
+.ft-15{
+    font-size: 15px;
+
+}
+
+
+.ft-weight-500{
+    font-weight: 500;
+}
+
+//mt-*
+
+.mt-35{
+    margin-top: 35px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+
+.mt-80{
+    margin-top: 80px;
+
+}
+.mt-135{
+    margin-top: 135px;
+
+}
+.mt-100{
+    margin-top: 100px;
+}
+
+/* You can add global styles to this file, and also import other style files */
+
+
+.blueText{
+    color: #386dda;
+}
+.blueBg{
+    background-color: #386dda;
+}
+.cardTn{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #f2f3f5;
+    padding: 70px 30px;
+}
+.boxShadow{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.pointer{
+    cursor: pointer;
+}
+
+.ft-11{
+    font-size: 11px;
+}
+.ft-12{
+    font-size: 12px;
+}
+
+.ft-15{
+    font-size: 15px;
+
+}
+
+//mt-*
+
+.mt-35{
+    margin-top: 35px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+
+.mt-80{
+    margin-top: 80px;
+
+}
+.mt-135{
+    margin-top: 135px;
+
+}
+.mt-100{
+    margin-top: 100px;
+}
