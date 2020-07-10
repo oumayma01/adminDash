@@ -1,0 +1,80 @@
+.cardForm{
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #f2f3f5;
+}
+
+.smallgrey{
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9d9ea1;
+}
+
+.ligne{
+    margin: auto;
+    height: 2px;
+    width: 40%;
+    background-color: #e8e4e4;
+}
+
+input{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16)!important;
+}
+.imgRegister{
+    width: 450px;
+    object-fit: cover;
+}
+.inputBtn{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    padding: 13.5px 0px;
+    border-radius: 4px;
+    color: #c8c8c8;
+    text-align: center;
+}
+
+.dateSelect{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    padding: 13.5px 0px;
+    border-radius: 4px;
+    color: #c8c8c8;
+    text-align: center;
+    padding: 9px 15px;
+}
+
+.genderBtn:hover{
+    box-shadow: 0 1px 6px 0 #0ce0ff;
+}
+.genderBtnActive{
+    box-shadow: 0 1px 6px 0 #0ce0ff;
+}
+::ng-deep{
+    .is-invalid {
+        border-color: #dc3545;
+        border: 2px solid #dc3545!important;
+        background-image: auto!important;
+        padding-right: calc(1.5em + .75rem);
+        background-image: none!important;
+     
+    }
+}
+
+
+.loginActions{
+    background: #f2f3f5;
+    margin: 0px -2px 2px -2px;
+    padding: auto;
+    /* z-index: 12; */
+    border-radius: 4px;
+  cursor: pointer;
+}
+
+.activeNav{
+    background: #0ce0ff;
+    border-radius: 4px;
+
+}

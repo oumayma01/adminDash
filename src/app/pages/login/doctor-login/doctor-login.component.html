@@ -1,0 +1,121 @@
+<!-- Main Wrapper -->
+<div class="main-wrapper login-body">
+    <div class="login-wrapper">
+        <div class="container">
+            <div class="loginbox">
+                <div class="login-left">
+                    <img class="img-fluid" src="assets/img/logo-white.png" alt="Logo">
+                </div>
+                <div class="login-right">
+                    <div class="login-right-wrap">
+                        <h1>Login</h1>
+                        <p class="account-subtitle">Access to our dashboard</p>
+
+                        <!-- Form -->
+                        <form action="https://dreamguys.co.in/demo/doccure/template/admin/index.html">
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary btn-block" type="submit">Login</button>
+                            </div>
+                        </form>
+                        <!-- /Form -->
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Main Wrapper -->
+
+<!-- Page Content -->
+<div class="content" *ngIf="0">
+    <div class="container-fluid">
+
+        <div class="row mb-5">
+            <div class="col-md-10 mx-auto">
+
+                <!-- Register Content -->
+                <div class="account-content">
+                    <div class="row ">
+                        <div class="col-md-7 col-lg-6 d-md-block d-none">
+                            <img src="assets/img/registerImg.png" class="img-fluid imgRegister" alt="RDV Register">
+                        </div>
+                        <div class="col-md-12 col-lg-6 my-auto ">
+
+                            <div class="row loginActions">
+
+                                <div class="col text-center py-3  activeNav whiteText"
+                                    [routerLink]="[ '/auth/doctor-login' ]" translate>
+
+                                    J'ai déja un compte
+
+                                </div>
+
+                                <div class="col text-center py-3 " [routerLink]="[ '/auth/doctor-register' ]" translate>
+
+                                    Je crée mon compte
+
+                                </div>
+                            </div>
+                            <div class="cardForm login-right mx-0">
+
+
+
+                                <!-- Register Form -->
+                                <form [formGroup]="loginForm">
+
+
+
+
+
+
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group form-focus focused">
+                                                <input [ngClass]="{ 'is-invalid': submitted && f.email.errors }"
+                                                    formControlName="email" type="email" class="form-control floating">
+                                                <label class="focus-label" translate>Adresse Email</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group form-focus focused">
+                                                <input [ngClass]="{ 'is-invalid': submitted && f.password.errors }"
+                                                    formControlName="password" type="password"
+                                                    class="form-control floating">
+                                                <label class="focus-label" translate>Mode de passe</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div *ngIf="error" class="alert-danger px-3 py-2 mb-3">
+                                        {{error}}
+                                    </div>
+                                    <button (click)="login()" class="btn btn-primary btn-block btn-lg login-btn"
+                                        type="submit" translate>Se connecter</button>
+
+                                </form>
+                                <!-- /Register Form -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Register Content -->
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!-- /Page Content -->
